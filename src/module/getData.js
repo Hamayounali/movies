@@ -3,12 +3,9 @@ const getData = async () => {
   const result = await fetch('https://pokeapi.co/api/v2/berry/');
   const data = await result.json();
   const dataSet = data.results;
-  // console.log(dataSet);
   dataSet.forEach(async (item) => {
     const result = await fetch(item.url);
     const data = await result.json();
-    // const dataSet = data.results;
-    // console.log(data);
     const HTML = `<div class="col-lg-4 col-md-6 mb-5 ">
     <div class="card" style="width: 18rem;" id = "card">
       <div class = "text-center pt-3">
