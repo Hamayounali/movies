@@ -8,3 +8,9 @@ h1 {
   align-items: center;
   border: 1px solid gray;
 }
+
+.footer {
+  background-color: #212529;
+  color: white;
+  padding: 20px;
+}
