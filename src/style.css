@@ -1,4 +1,10 @@
-.hello {
+h1 {
   color: red;
-  background: url("./icon.png");
+}
+
+.card #pokemonId {
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  border: 1px solid gray;
 }
