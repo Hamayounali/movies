@@ -1,11 +1,36 @@
-// eslint-disable-next-line no-unused-vars
-import _ from 'lodash';
 import './style.css';
-import getData from './module/getData.js';
-import logo from './logo.png';
+import logo from './assets/images/logo.png';
+import { getPokemonList } from './getData.js';
+import { getLike } from './popup.js';
 
-// Add the image to our existing div.
-const myIcon = new Image();
-myIcon.src = logo;
+const myLogo = document.getElementById('myLogo');
+const likeAPI = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/OVD8ezpiyVImBjcKvIIS/likes';
+// Add Logo Image //
+let imageHtml = '';
+imageHtml += `
+<img src="${logo}" alt="logo">`;
+myLogo.innerHTML = imageHtml;
 
-getData();
+getPokemonList();
+getLike(likeAPI);
+
+const home = document.getElementById('home');
+const about = document.getElementById('about');
+
+home.addEventListener('click', () => {
+  if (!home.classList.contains('page-active')) {
+    home.classList.add('page-active');
+    about.classList.remove('page-active');
+    document.getElementById('aboutContainer').style.display = 'none';
+    document.getElementById('poke_container').classList.remove('hide-tab');
+  }
+});
+
+about.addEventListener('click', () => {
+  if (!about.classList.contains('page-active')) {
+    home.classList.remove('page-active');
+    about.classList.add('page-active');
+    document.getElementById('aboutContainer').style.display = 'flex';
+    document.getElementById('poke_container').classList.add('hide-tab');
+  }
+});
