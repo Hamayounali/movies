@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
+# Pokemon
 
 > In this web application we are going to use Pokemon and Involvment APIs in order to send and receive data. In this web application, we are going to use all advance JavaScript like Modules, Webpack, ES6, APIs, and Asynchronous JavaScript.  
 
@@ -66,7 +66,10 @@ git clone https://github.com/Hamayounali/movies
 
 - GitHub: [@Esmatullah Ahamdzai](https://github.com/eaesmat)
 - Twitter: [@Esmatullah Ahamdzai](https://twitter.com/ea_ahmadzai)
-- LinkedIn: [@Esmatullah Ahamdzai](https://www.linkedin.com/in/esmatullah-ahmadzai-589523230/)
+- LinkedIn: [@Esmatullah Ahamdzai](https://www.linkedin.com/in/esmatullah-ahmadzai-589523230
+
+👤 ****Hamayoun Ali Babur
+- GitHub: [@Hamayoun Ali Babur](https://github.com/Hamayounali)
 
 ## 🤝 Contributing
 
