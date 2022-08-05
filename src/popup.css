@@ -40,7 +40,6 @@
 }
 
 .popup-image {
-  width: 100%;
   border-bottom: 5px solid green;
   height: 400px;
   width: 100%;
@@ -143,7 +142,6 @@
   cursor: pointer;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: fit-content;
-  align-self: flex-center;
 }
 
 .display {
