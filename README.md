@@ -68,7 +68,7 @@ git clone https://github.com/Hamayounali/movies
 - Twitter: [@Esmatullah Ahamdzai](https://twitter.com/ea_ahmadzai)
 - LinkedIn: [@Esmatullah Ahamdzai](https://www.linkedin.com/in/esmatullah-ahmadzai-589523230
 
-👤 ****Hamayoun Ali Babur
+👤 **Hamayoun Ali Babur**
 - GitHub: [@Hamayoun Ali Babur](https://github.com/Hamayounali)
 
 ## 🤝 Contributing
